@@ -1,14 +1,14 @@
-int max=a;
-if(b>=max){
-    max=b;
+int greatest=a;
+if(b>=greatest){
+    greatest=b;
 }
-if(c>=max){
-    max=c;
+if(c>=greatest){
+    greatest=c;
 }
-if(max==a){
+if(greatest==a){
     boolean flag=((b * b+c * c)==(a * a));
     System.out.println(flag);
-}else if(max==b){
+}else if(greatest==b){
     boolean flag=((a*a+c*c)==(b*b));
    System.out.println(flag);
 }else{
